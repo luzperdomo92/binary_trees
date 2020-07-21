@@ -11,7 +11,7 @@
  */
 void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int))
 {
-	if (tree == NULL || func == NULL)
+	if (!tree || !func)
 		return;
 
 	printf("%d\n", tree->n);
