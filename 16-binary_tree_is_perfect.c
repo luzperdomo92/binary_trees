@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "binary_trees.h"
+#include "11-binary_tree_size.c"
 /**
  * binary_tree_is_perfect - checks if a binary tree is perfect.
  *
